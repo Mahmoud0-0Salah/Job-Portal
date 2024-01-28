@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Jop_Portal.Data;
 using Jop_Portal.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Jop_Portal.Controllers
 {
     public class OffersController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public OffersController(ApplicationDbContext context)
+        public OffersController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Offers
@@ -41,14 +44,23 @@ namespace Jop_Portal.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,JobTittle,Photo,Description,Available,Active,CreatedAt,UserId")] Offers offers)
         {
-            if (ModelState.IsValid)
-            {
+                
+                var file = HttpContext.Request.Form.Files;
+                    string imageName = Guid.NewGuid().ToString() + Path.GetExtension(file[0].FileName);
+                    var filePath = Path.Combine("wwwroot", "imj", imageName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        file[0].CopyTo(fileStream); // Save in the Images folder
+                    }
+
+                    offers.Photo = $"/imj/{imageName}"; // Save in the database
+                offers.Active = false;
+                offers.CreatedAt = DateTime.Now;
+                offers.UserId = _userManager.GetUserId(User);
                 _context.Add(offers);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", offers.UserId);
-            return View(offers);
+                return RedirectToAction(nameof(Index), new { id = _userManager.GetUserId(User) });
         }
         // GET: Offers/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -85,7 +97,7 @@ namespace Jop_Portal.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index), new { id = _userManager.GetUserId(User) });
         }
 
         private bool OffersExists(int id)
