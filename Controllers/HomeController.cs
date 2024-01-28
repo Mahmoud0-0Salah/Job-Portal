@@ -23,7 +23,7 @@ namespace Jop_Portal.Controllers
         public IActionResult Index(string? search)
         {
             string id = _userManager.GetUserId(User);
-            var model = _context.Offers.Where(o => (o.Active&& o.Available));
+            var model = _context.Offers.Where(o => (o.Active));
             if (search != null)
             {
                     model = SearchOffers(model, search);

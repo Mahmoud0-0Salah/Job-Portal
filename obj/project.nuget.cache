@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BW7SuWkuNSo4vPL8fPKbQiUSzPAU9qAy4CjqLiVQll0wAuYq+4VCBMvfHRW0e3JpqXkRPDYKYrnrkoOesod5rA==",
+  "dgSpecHash": "SgNu2zCkb6f6L3iGNZVtIcDXYG2OQEKReH9RMV88dHFQ4eHuHCPk7EHcVdUYigk8mvPTTIKmhF74k9D7M8jClA==",
   "success": true,
-  "projectFilePath": "E:\\study\\projects\\Jop Portal\\Jop Portal.csproj",
+  "projectFilePath": "E:\\study\\projects\\Jop-Portal\\Jop Portal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ms993\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ms993\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

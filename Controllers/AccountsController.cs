@@ -40,12 +40,14 @@ namespace Jop_Portal.Controllers
             {
                 return NotFound();
             }
-            var offers= _context.Offers.Where(o => (o.Active && o.Available&&o.UserId==id));
+            var offers= _context.Offers.Where(o => (o.Active &&o.UserId==id));
             var account =  _context.Account
                 .SingleOrDefault(m => m.Id == id);
             ViewData["Name"] = account.Name;
             ViewData["Photo"] = account.Photo;
             ViewData["About"] = account.About;
+            ViewData["UserId"] =account.Id;
+            ViewData["Id"] = _userManager.GetUserId(User);
             return View(offers);
         }
 

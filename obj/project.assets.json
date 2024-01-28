@@ -11985,11 +11985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\study\\projects\\Jop Portal\\Jop Portal.csproj",
+      "projectUniqueName": "E:\\study\\projects\\Jop-Portal\\Jop Portal.csproj",
       "projectName": "Jop Portal",
-      "projectPath": "E:\\study\\projects\\Jop Portal\\Jop Portal.csproj",
+      "projectPath": "E:\\study\\projects\\Jop-Portal\\Jop Portal.csproj",
       "packagesPath": "C:\\Users\\ms993\\.nuget\\packages\\",
-      "outputPath": "E:\\study\\projects\\Jop Portal\\obj\\",
+      "outputPath": "E:\\study\\projects\\Jop-Portal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

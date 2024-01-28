@@ -1,15 +1,15 @@
-﻿@model IEnumerable<Offers>
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <style>
         .banner {
-            background-image: url(/imj/banner.jpg);
+            background-image: url(/imj/banner.jpg); /* Replace with your image URL */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
             height: 500px;
             width: 100%;
+            position: relative;
         }
 
         .banner-title {
@@ -20,82 +20,83 @@
             transform: translateY(280px)
         }
 
+        .contact-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            width: auto;
+        }
+
+        .contact-details {
+            margin-top: 20px;
+        }
+
+        .middle-column {
+            margin-top: 20px; /* Adjust as needed */
+        }
+
+        .media {
+            margin-bottom: 20px; /* Adjust as needed */
+        }
+
+        .media-body {
+            width: 100%; /* Ensure media-body takes full width */
+        }
+
+        .media img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 
-    <!------------------LIght BOx for Gallery-------------->
-    <link rel="stylesheet" href="lightbox.min.css">
-    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
-    <!------------------LIght BOx for Gallery-------------->
-
-
-  
+    <!-- Lightbox CSS and JS links -->
 
     <title>Application</title>
 </head>
 <body>
 
-
-   
- 
-    <!-----------------------------------Banner/img Starts-------------------->
-
-
     <div class="banner">
         <div class="banner-title d-flex flex-column justify-content-center align-items-center">
-            <img src="@ViewData["Photo"]" = account.Photo;" alt="img" class="rounded-circle" width="150px" height="150px">
+            <img src="@ViewData["Photo"]" alt="img" class="rounded-circle" width="150px" height="150px">
             <h3 class="text-light">@ViewData["Name"]</h3>
             <p class="text-light">@ViewData["About"]</p>
             <ul class="nav text-light">
-                <li class="nav-item nav-link active">Photos</li>
-                <li class="nav-item nav-link">Others</li>
-                <li class="nav-item nav-link">Anothers</li>
-
-            </ul>
+                @if (@ViewData["Id"].Equals(@ViewData["UserId"]))
+                {
+                    <li class="nav-item nav-link active"><a asp-area="Identity" asp-page="/Account/Manage/ChangePassword"> <i class="fa fa-edit"></i> Edit profile</a></li>
+                    <li class="nav-item nav-link active"><a asp-controller="Offers" asp-action="Index" asp-route-id="@ViewData["Id"]">  Browse your offers</a></li>
+                }
+            </ul>>
         </div>
-
-
-
     </div>
 
-
-
-    <!--------------------Image Portfolio----------------->
-
-
-    <div class="col-12 col-lg-6 mx-auto">
-
-
-        <div class="middle-column">
-            <div class="card">
-                <div class="card-body">
-                    @foreach (var offer in Model)
-                    {
-                        <div class="media">
-                            <div class="media-body">
-                                <h3>@offer.JobTittle</h3>
-                                <p class="card-text text-justify">@offer.Description</p>
-                                <div class="row no-gutters mb-3">
-                                    <div class="col-6 p-1 text-center">
-                                        <img src="@offer.Photo" alt="" class="img-fluid mb-2">
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    }
-
-                </div>
-
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 contact-section">
+                <h4>Contact Details</h4>
+                <p>Name: @ViewData["Name"]</p>
+                <p>Email: @ViewData["Email"]</p>
+                <p>Phone: @ViewData["Phone"]</p>
             </div>
 
-
-
+            <div class="col-12 col-lg-6 mx-auto middle-column">
+                <div class="card">
+                    <div class="card-body">
+                        @foreach (var offer in Model)
+                        {
+                            <div class="media">
+                                <div class="media-body">
+                                    <h3>@offer.JobTittle</h3>
+                                    <p class="card-text text-justify">@offer.Description</p>
+                                </div>
+                                <div class="col-6 p-1 text-center">
+                                    <img src="@offer.Photo" alt="" class="img-fluid mb-2">
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
-
-
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>

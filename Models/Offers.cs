@@ -11,7 +11,6 @@ namespace Jop_Portal.Models
         public string JobTittle { get; set; }
         public string Photo { get; set; }
         public string Description { get; set; }
-        public bool Available { get; set; }
         public bool Active { get; set; }
         public DateTime CreatedAt { get; set; }
 
