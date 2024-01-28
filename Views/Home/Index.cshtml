@@ -1,0 +1,185 @@
+﻿   @model IEnumerable<Offers>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@if (SignInManager.IsSignedIn(User))
+{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <!------------------LIght BOx for Gallery-------------->
+        <link rel="stylesheet" href="lightbox.min.css">
+        <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+        <!------------------LIght BOx for Gallery-------------->
+        <title>Application-1</title>
+    </head>
+    <body>
+
+        <!-------------------------------------------Start Grids layout for lg-xl-3 columns and (xs-lg 1 columns)--------------------------------->
+
+
+        <div class="container">
+            <div class="row">
+
+
+                <!--------------------------left columns  start-->
+
+                <div class="col-12 col-lg-3">
+
+                    <div class="left-column">
+
+
+                        <div class="card card-left1 mb-4">
+                            <img src="/imj/white-screen-background.jpg" alt="" class="card-img-top img-fluid">
+                            <div class="card-body text-center ">
+                                <img src="@ViewData["Photo"]" alt="img" width="120px" height="120px" class="rounded-circle mt-n5">
+                                <h5 class="card-title">@ViewData["Name"]</h5>
+                                <p class="card-text text-justify mb-2">@ViewData["About"]</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+                <!--------------------------Ends Left columns-->
+                <!---------------------------------------Middle columns  start---------------->
+
+
+                <div class="col-12 col-lg-6">
+
+
+                    <div class="middle-column">
+                        <div class="card">
+                            <div class="card-body">
+                                @foreach (var offer in Model)
+                                {
+                                    <a href="/home">Visit user profile</a>
+                                    <hr />
+                                    <a href="/home">Report</a>
+                                    <hr />
+
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <h3>@offer.JobTittle</h3>
+                                            <p class="card-text text-justify">@offer.Description</p>
+                                            <div class="row no-gutters mb-3">
+                                                <div class="col-6 p-1 text-center">
+                                                    <img src="@offer.Photo" alt="" class="img-fluid mb-2">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                }
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+                <br> <br> <br><br> <br> <br>
+
+                <!------------------------Middle column Ends---------------->
+
+                <!------------------------Light BOx OPtions------------->
+                <script>
+                    lightbox.option({
+
+                    })
+                </script>
+
+
+
+                <!------------------------Light BOx OPtions------------->
+
+
+
+
+
+
+
+
+
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+}
+else
+{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+
+            .container {
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                color: #333;
+            }
+
+            .login-link, .signup-link {
+                color: #007bff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                .login-link:hover, .signup-link:hover {
+                    text-decoration: underline;
+                }
+
+            .link-container {
+                margin-top: 20px;
+            }
+        </style>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to Our Website</h1>
+            <p>If you have an account, please <a asp-area="Identity" asp-page="/Account/Login" class="login-link">Login</a>. </p>
+            <div class="link-container">
+                <p>Don't have an account? <a asp-area="Identity" asp-page="/Account/Register" class="signup-link">Sign Up</a>.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+
+
+}

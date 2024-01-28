@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Offers>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .banner {
+            background-image: url(/imj/banner.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+        }
+
+        .banner-title {
+            transform: translateY(150px)
+        }
+
+        .banner-end {
+            transform: translateY(280px)
+        }
+
+    </style>
+
+    <!------------------LIght BOx for Gallery-------------->
+    <link rel="stylesheet" href="lightbox.min.css">
+    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+    <!------------------LIght BOx for Gallery-------------->
+
+
+  
+
+    <title>Application</title>
+</head>
+<body>
+
+
+   
+ 
+    <!-----------------------------------Banner/img Starts-------------------->
+
+
+    <div class="banner">
+        <div class="banner-title d-flex flex-column justify-content-center align-items-center">
+            <img src="@ViewData["Photo"]" = account.Photo;" alt="img" class="rounded-circle" width="150px" height="150px">
+            <h3 class="text-light">@ViewData["Name"]</h3>
+            <p class="text-light">@ViewData["About"]</p>
+            <ul class="nav text-light">
+                <li class="nav-item nav-link active">Photos</li>
+                <li class="nav-item nav-link">Others</li>
+                <li class="nav-item nav-link">Anothers</li>
+
+            </ul>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!--------------------Image Portfolio----------------->
+
+
+    <div class="col-12 col-lg-6 mx-auto">
+
+
+        <div class="middle-column">
+            <div class="card">
+                <div class="card-body">
+                    @foreach (var offer in Model)
+                    {
+                        <div class="media">
+                            <div class="media-body">
+                                <h3>@offer.JobTittle</h3>
+                                <p class="card-text text-justify">@offer.Description</p>
+                                <div class="row no-gutters mb-3">
+                                    <div class="col-6 p-1 text-center">
+                                        <img src="@offer.Photo" alt="" class="img-fluid mb-2">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    }
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
