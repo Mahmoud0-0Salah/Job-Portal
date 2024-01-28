@@ -43,10 +43,13 @@ namespace Jop_Portal.Controllers
             var offers= _context.Offers.Where(o => (o.Active &&o.UserId==id));
             var account =  _context.Account
                 .SingleOrDefault(m => m.Id == id);
+            var user = _context.Users.SingleOrDefault(u=>u.Id == id);
             ViewData["Name"] = account.Name;
             ViewData["Photo"] = account.Photo;
             ViewData["About"] = account.About;
             ViewData["UserId"] =account.Id;
+            ViewData["Phone"] = user.PhoneNumber;
+            ViewData["Email"] = user.Email;
             ViewData["Id"] = _userManager.GetUserId(User);
             return View(offers);
         }

@@ -7,6 +7,7 @@
     <!DOCTYPE html>
     <html lang="en">
     <head>
+      
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,6 +18,46 @@
         <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
         <!------------------LIght BOx for Gallery-------------->
         <title>Application-1</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+
+            .right-column {
+                padding: 1px;
+            }
+
+            .content {
+                padding: 10px;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                margin-top: 10px;
+                transition: opacity 0.5s ease-in-out;
+                height: 550px;
+            }
+
+                .content ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+
+                    .content ul li {
+                        margin-bottom: 10px;
+                    }
+
+                .content a {
+                    color: #007bff;
+                    text-decoration: none;
+                }
+
+                    .content a:hover {
+                        text-decoration: underline;
+                    }
+        </style>
     </head>
     <body>
 
@@ -42,7 +83,13 @@
                                 <p class="card-text text-justify mb-2">@ViewData["About"]</p>
                             </div>
                         </div>
-
+                        <div class="card shadow-sm mb-4">
+                            <div class="card-body">
+                                <h4>Contact Details</h4>
+                                <p>Email: <a href="@ViewData["Email"]"><br>@ViewData["Email"]</a></p>
+                                <p>Phone:<br> @ViewData["Phone"]</p>
+                            </div>
+                        </div>
 
                     </div>
 
@@ -112,15 +159,26 @@
                 <!------------------------Light BOx OPtions------------->
 
 
+                <div class="col-12 col-lg-3">
+                    <div class="right-column">
 
+                     
 
-
-
-
-
-
-
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+                        <div class="content">
+                            <h3>Contact Us</h3>
+                            <hr />
+                            <hr />
+                            <p>Feel free to reach out to us through the following channels:</p>
+                            <ul>
+                                <li>Email: <a href="mailto:mahmoudsalah2339@gmail.com"><br>mahmoudsalah2339@gmail.com</a></li>
+                                <hr />
+                                <hr />
+                                <li>LinkedIn: <a href="https://www.linkedin.com/in/mahmoud-salah-296bab289/" target="_blank"><br>LinkedIn Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
@@ -135,12 +193,14 @@ else
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
-                font-family: 'Arial', sans-serif;
+                background-color: #F5F8FA;
+                font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
                 margin: 0;
-                padding: 0;
-                background-color: #f0f0f0;
+                font-weight: 300;
+                line-height: 1.6;
+                color: #212529;
+                text-align: left;
             }
-
             .container {
                 max-width: 600px;
                 margin: 50px auto;

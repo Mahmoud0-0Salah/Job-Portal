@@ -30,9 +30,14 @@ namespace Jop_Portal.Controllers
             }
             if (id != null)
             {
-                ViewData["Name"] = _context.Account.Single(a => a.Id == id).Name;
-                ViewData["Photo"] = _context.Account.Single(a => a.Id == id).Photo;
-                ViewData["About"] = _context.Account.Single(a => a.Id == id).About;
+                var account = _context.Account
+            .SingleOrDefault(m => m.Id == id);
+                var user = _context.Users.SingleOrDefault(u => u.Id == id);
+                ViewData["Name"] = account.Name;
+                ViewData["Photo"] = account.Photo;
+                ViewData["About"] = account.About;
+                ViewData["Phone"] = user.PhoneNumber;
+                ViewData["Email"] = user.Email;
             }
            return View(model);
         }
