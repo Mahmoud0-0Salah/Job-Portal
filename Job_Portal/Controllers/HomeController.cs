@@ -28,11 +28,12 @@ namespace Jop_Portal.Controllers
             if (User.IsInRole("Admin"))
                 return RedirectToAction("Index", "Admin");
             string id = _userManager.GetUserId(User);
-            var model = _context.Offers.Where(o => (o.Active));
+            var model = _context.Offers.Where(o => o.Active);
             if (search != null)
             {
                     model = SearchOffers(model, search);
             }
+            model=model.OrderByDescending(o => o.CreatedAt);
             if (id != null)
             {
                 var account = _context.Account
@@ -56,10 +57,6 @@ namespace Jop_Portal.Controllers
                 return result;
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

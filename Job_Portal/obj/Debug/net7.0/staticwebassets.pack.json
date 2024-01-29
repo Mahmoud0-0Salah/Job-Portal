@@ -1,363 +1,267 @@
 {
   "Files": [
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Jop Portal.bundle.scp.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Jop Portal.bundle.scp.css",
       "PackagePath": "staticwebassets\\Jop Portal.bundle.scp.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\css\\site.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\favicon.ico",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\0c441ff0-7c40-4412-9567-2ce2ad9f1af8.jpg",
-      "PackagePath": "staticwebassets\\imj\\0c441ff0-7c40-4412-9567-2ce2ad9f1af8.jpg"
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\4e2d0cab-88aa-4136-9bc1-9d68882d7fc5.jpg",
+      "PackagePath": "staticwebassets\\imj\\4e2d0cab-88aa-4136-9bc1-9d68882d7fc5.jpg"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\176965fd-d702-4462-b4da-99fdc7831c1b.jpg",
-      "PackagePath": "staticwebassets\\imj\\176965fd-d702-4462-b4da-99fdc7831c1b.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\2c5c4b1d-047b-4252-b040-78bb4cf5c1f3.png",
-      "PackagePath": "staticwebassets\\imj\\2c5c4b1d-047b-4252-b040-78bb4cf5c1f3.png"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\61bf6efa-2265-4d92-8652-534de4b5f58c.jpg",
-      "PackagePath": "staticwebassets\\imj\\61bf6efa-2265-4d92-8652-534de4b5f58c.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\63eecbfb-5911-4521-a565-527d643bc47f.jpg",
-      "PackagePath": "staticwebassets\\imj\\63eecbfb-5911-4521-a565-527d643bc47f.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\6928b788-b05f-4ed4-89cb-61673562fa03.jpg",
-      "PackagePath": "staticwebassets\\imj\\6928b788-b05f-4ed4-89cb-61673562fa03.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\6d478a92-fb90-473b-874a-2be1ba6dd397.jpg",
-      "PackagePath": "staticwebassets\\imj\\6d478a92-fb90-473b-874a-2be1ba6dd397.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\720225f0-290d-4e68-882d-34ef93397b74.jpg",
-      "PackagePath": "staticwebassets\\imj\\720225f0-290d-4e68-882d-34ef93397b74.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\787235ec-b1bc-4792-bc02-05417e665bc8.jpg",
-      "PackagePath": "staticwebassets\\imj\\787235ec-b1bc-4792-bc02-05417e665bc8.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\834aa4c4-24be-47ef-b0f6-99301fb7a240.jpg",
-      "PackagePath": "staticwebassets\\imj\\834aa4c4-24be-47ef-b0f6-99301fb7a240.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\8752c922-1830-45b9-8b17-588b30dcfc91.jpg",
-      "PackagePath": "staticwebassets\\imj\\8752c922-1830-45b9-8b17-588b30dcfc91.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\8a14704d-e69c-49bb-9fcf-589a0a63c3ac.jpg",
-      "PackagePath": "staticwebassets\\imj\\8a14704d-e69c-49bb-9fcf-589a0a63c3ac.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\8ea9c6e9-80a2-42f0-9eee-c4c2972a2f89.jpg",
-      "PackagePath": "staticwebassets\\imj\\8ea9c6e9-80a2-42f0-9eee-c4c2972a2f89.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\a6228ffe-1e7d-45b1-9b0e-ab7c82c2e33d.jpg",
-      "PackagePath": "staticwebassets\\imj\\a6228ffe-1e7d-45b1-9b0e-ab7c82c2e33d.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\aa5daf2f-72ba-4413-bda0-43b2940bfe07.jpg",
-      "PackagePath": "staticwebassets\\imj\\aa5daf2f-72ba-4413-bda0-43b2940bfe07.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\adeb39a0-f5d6-4d67-98f9-03226aa665ee.jpg",
-      "PackagePath": "staticwebassets\\imj\\adeb39a0-f5d6-4d67-98f9-03226aa665ee.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\ae145cd9-e8a0-4152-94fb-e027939f3698.jpg",
-      "PackagePath": "staticwebassets\\imj\\ae145cd9-e8a0-4152-94fb-e027939f3698.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\b0bc6c1b-74d5-4afc-a09f-0b6970ffd933.jpg",
-      "PackagePath": "staticwebassets\\imj\\b0bc6c1b-74d5-4afc-a09f-0b6970ffd933.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\banner.jpg",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\banner.jpg",
       "PackagePath": "staticwebassets\\imj\\banner.jpg"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\bd6fceac-7cef-496f-b1d3-ecaf9b7141f7.jpg",
-      "PackagePath": "staticwebassets\\imj\\bd6fceac-7cef-496f-b1d3-ecaf9b7141f7.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\ccc9ae12-2835-4e01-b219-24d0be3e0d49.jpg",
-      "PackagePath": "staticwebassets\\imj\\ccc9ae12-2835-4e01-b219-24d0be3e0d49.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\d24161db-3d0d-45e1-8e57-ac9a6c1baf26.jpg",
-      "PackagePath": "staticwebassets\\imj\\d24161db-3d0d-45e1-8e57-ac9a6c1baf26.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\d2608a85-def1-486b-808a-da3e1e2f94c2.jpg",
-      "PackagePath": "staticwebassets\\imj\\d2608a85-def1-486b-808a-da3e1e2f94c2.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\d4c0c709-deaa-40cb-b00d-6080f110fa0b.jpg",
-      "PackagePath": "staticwebassets\\imj\\d4c0c709-deaa-40cb-b00d-6080f110fa0b.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\d51c9a61-481a-44bf-b32e-94af723e9cd7.jpg",
-      "PackagePath": "staticwebassets\\imj\\d51c9a61-481a-44bf-b32e-94af723e9cd7.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\default.jpg",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\default.jpg",
       "PackagePath": "staticwebassets\\imj\\default.jpg"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\f1ce805f-3dea-4e7f-9fbb-1195a2cb1d12.jpg",
-      "PackagePath": "staticwebassets\\imj\\f1ce805f-3dea-4e7f-9fbb-1195a2cb1d12.jpg"
-    },
-    {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\report.jpg",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\report.jpg",
       "PackagePath": "staticwebassets\\imj\\report.jpg"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\white-screen-background.jpg",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\white-screen-background.jpg",
       "PackagePath": "staticwebassets\\imj\\white-screen-background.jpg"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\js\\site.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\study\\projects\\Jop-Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

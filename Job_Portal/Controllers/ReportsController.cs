@@ -29,24 +29,7 @@ namespace Jop_Portal.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: Reports/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Reports == null)
-            {
-                return NotFound();
-            }
-
-            var reports = await _context.Reports
-                .Include(r => r.User)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (reports == null)
-            {
-                return NotFound();
-            }
-
-            return View(reports);
-        }
+       
 
         // GET: Reports/Create
         public IActionResult Create(string id)
