@@ -83,8 +83,8 @@ namespace Jop_Portal
             {
                 var userManger = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
-                var email = "mohamed@phone.com";
-                var password = "Ali1212#";
+                var email = "mahmoudsalah2339@gmail.com";
+                var password = "MMss233@";
 
                 if (await userManger.FindByEmailAsync(email) == null)
                 {
