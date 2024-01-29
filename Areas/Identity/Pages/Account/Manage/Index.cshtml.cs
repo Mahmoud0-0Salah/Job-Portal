@@ -74,6 +74,9 @@ namespace Jop_Portal.Areas.Identity.Pages.Account.Manage
             public string PhoneNumber { get; set; }
             [Display(Name = "Name")]
             public string Name { get; set; }
+
+            public string About { get; set; }
+
             [Display(Name = "Photo")]
             public IFormFile? Photo { get; set; }
         }
@@ -94,6 +97,7 @@ namespace Jop_Portal.Areas.Identity.Pages.Account.Manage
             {
                 PhoneNumber = phoneNumber,
                 Name = account.Name,
+                About = account.About,
             };
 
         }
@@ -141,6 +145,12 @@ namespace Jop_Portal.Areas.Identity.Pages.Account.Manage
             if (Input.Name != account.Name)
             {
                 account.Name = Input.Name;
+                _context.SaveChanges();
+            }
+
+            if (Input.About != account.About)
+            {
+                account.About = Input.About;
                 _context.SaveChanges();
             }
 
