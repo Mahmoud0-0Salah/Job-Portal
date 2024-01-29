@@ -26,12 +26,17 @@ namespace Jop_Portal.Controllers
         }
 
      
-
-        public IActionResult ReportsHome()
+         public IActionResult ReportsHome()
         {
             var account = _dbContext.Account.Where(a=>a.Reports!=0).OrderByDescending(a=> a.Reports);
 
             return View(account);
+        }
+        public IActionResult ReportDescription(string id)
+        {
+            var reports = _dbContext.Reports.Where(r=>r.ReportedUserId==id);
+            ViewData["id"] = id;
+            return View(reports);
         }
         [HttpGet]
         public IActionResult ConfirmPage(int id)
