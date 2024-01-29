@@ -16,6 +16,7 @@ namespace Jop_Portal.Data
         public DbSet<Reports> Reports { get; set; }
         public DbSet<Offers> Offers { get; set; }
         public DbSet<Account> Account { get; set; }
+        public DbSet<BlockedEmails> BlockedEmails { get; set; }
         //public DbSet<AccountAndOffersFavouritList> AccountAndOffersFavouritList { get; set; }
 
         /*protected override void OnModelCreating(ModelBuilder modelBuilder)
