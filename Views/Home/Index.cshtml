@@ -106,10 +106,10 @@
 
 
                     <div class="middle-column">
+                        @foreach (var offer in Model)
+                        {
                         <div class="card">
                             <div class="card-body">
-                                @foreach (var offer in Model)
-                                {
                                     <a href="/Accounts/Details/@offer.UserId">Visit user profile</a>
                                     <hr />
                                     <a href="/home">Report</a>
@@ -129,14 +129,13 @@
                                         </div>
 
                                     </div>
-                                }
 
                             </div>
 
 
                         </div>
-
-
+                        <br />
+                        }
 
                     </div>
 
@@ -173,7 +172,7 @@
                                 <li>Email: <a href="mailto:mahmoudsalah2339@gmail.com"><br>mahmoudsalah2339@gmail.com</a></li>
                                 <hr />
                                 <hr />
-                                <li>LinkedIn: <a href="https://www.linkedin.com/in/mahmoud-salah-296bab289/" target="_blank"><br>LinkedIn Profile</a></li>
+                                <li>LinkedIn: <a href="https://www.linkedin.com/in/mahmoud-salah-296bab289/" target="_blank"><br>Mahmoud Salah</a></li>
                             </ul>
                         </div>
                     </div>

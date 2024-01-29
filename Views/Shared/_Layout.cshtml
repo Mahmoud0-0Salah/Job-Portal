@@ -15,6 +15,27 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color:#3097D1">
             <div class="container-fluid">
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+                    <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="Index">Jop_Portal</a>
+                            </li>
+                            <li class="nav-item">
+                             <a class="nav-link text-light" asp-area="" asp-controller="Admin" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                    <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                                </form>
+                            </li>
+                    </ul>
+                   
+                    </div>
+                }
+                else{
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Jop_Portal</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +58,7 @@
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
+                 }
             </div>
         </nav>
     </header>

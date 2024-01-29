@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J6BbCaL9qKOUMvzXX1hNf/LB1aDQrBbFab04KmA85Jk=",
+  "Hash": "KMFz6AMzGCKbpvmP628DgwVDv+DLZ9y5Ypxs9Lfujj0=",
   "Source": "Jop Portal",
   "BasePath": "_content/Jop Portal",
   "Mode": "Default",
@@ -1122,6 +1122,40 @@
       "OriginalItemSpec": "wwwroot\\imj\\0c441ff0-7c40-4412-9567-2ce2ad9f1af8.jpg"
     },
     {
+      "Identity": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\176965fd-d702-4462-b4da-99fdc7831c1b.jpg",
+      "SourceId": "Jop Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\study\\projects\\Jop-Portal\\wwwroot\\",
+      "BasePath": "_content/Jop Portal",
+      "RelativePath": "imj/176965fd-d702-4462-b4da-99fdc7831c1b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imj\\176965fd-d702-4462-b4da-99fdc7831c1b.jpg"
+    },
+    {
+      "Identity": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\63eecbfb-5911-4521-a565-527d643bc47f.jpg",
+      "SourceId": "Jop Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\study\\projects\\Jop-Portal\\wwwroot\\",
+      "BasePath": "_content/Jop Portal",
+      "RelativePath": "imj/63eecbfb-5911-4521-a565-527d643bc47f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imj\\63eecbfb-5911-4521-a565-527d643bc47f.jpg"
+    },
+    {
       "Identity": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\6928b788-b05f-4ed4-89cb-61673562fa03.jpg",
       "SourceId": "Jop Portal",
       "SourceType": "Discovered",
@@ -1154,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imj\\834aa4c4-24be-47ef-b0f6-99301fb7a240.jpg"
+    },
+    {
+      "Identity": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\8752c922-1830-45b9-8b17-588b30dcfc91.jpg",
+      "SourceId": "Jop Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\study\\projects\\Jop-Portal\\wwwroot\\",
+      "BasePath": "_content/Jop Portal",
+      "RelativePath": "imj/8752c922-1830-45b9-8b17-588b30dcfc91.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imj\\8752c922-1830-45b9-8b17-588b30dcfc91.jpg"
     },
     {
       "Identity": "E:\\study\\projects\\Jop-Portal\\wwwroot\\imj\\8a14704d-e69c-49bb-9fcf-589a0a63c3ac.jpg",

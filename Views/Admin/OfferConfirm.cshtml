@@ -1,0 +1,52 @@
+﻿@{
+    var offer = ViewData["offer"] as Offers;
+    var account = ViewData["account"] as Account;
+}
+
+<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/product_detail.css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div id="myCarousel-2" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="@offer.Photo" class="img-responsive img-fluid" alt="@offer.JobTittle" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2 class="name">@offer.JobTittle</h2>
+            <small>Product by <strong>@account.Name</strong></small>
+            <hr />
+            <div class="description">
+                <strong>Description Title</strong>
+                <p>@offer.Description</p>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-md-4">
+                    <form method="post" asp-controller="Admin" asp-action="Confirm" asp-route-id="@offer.Id">
+                        <button type="submit" class="btn btn-success btn-lg">Confirm</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <form method="post" asp-controller="Admin" asp-action="Delete" asp-route-id="@offer.Id">
+                        <button type="submit" class="btn btn-danger btn-lg">Delete</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <a asp-controller="Admin" asp-action="Index" class="btn btn-warning btn-lg">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+}

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Offers>
+<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+<style type="text/css">
+    .container {
+        margin: 30px;
+    }
+</style>
+
+
+<div class="container bootstrap snippets bootdey">
+
+    <div class="row">
+        <div class="col-md-3">
+
+            <hr>
+                <li><a asp-controller="Admin" asp-action="Index"><i class="glyphicon glyphicon-list-alt"></i> Offers</a></li>
+                <hr />
+                <li><a href="#"><i class="glyphicon glyphicon-plus"></i> Reports</a></li> 
+            <hr>
+        </div>
+        <div class="col-md-9">
+            <br />
+            @foreach (var Offer in Model)
+            {
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <div class="well">
+                            <a asp-controller="Admin" asp-action="ConfirmPage" asp-route-id="@Offer.Id"># @Offer.JobTittle</a>
+                            <span class="badge pull-right">@Offer.CreatedAt</span>
+                        </div>
+                        <hr>
+
+                        <!-- <div class="panel panel-default">
+
+                        </div> -->
+                    </div>
+
+
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>

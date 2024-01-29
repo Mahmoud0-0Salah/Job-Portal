@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
         .banner {
             background-image: url(/imj/banner.jpg); /* Replace with your image URL */
             background-repeat: no-repeat;
@@ -79,10 +85,11 @@
             </div>
 
             <div class="col-12 col-lg-6 mx-auto middle-column">
+                @foreach (var offer in Model)
+                 {
                 <div class="card">
                     <div class="card-body">
-                        @foreach (var offer in Model)
-                        {
+                      
                             <div class="media">
                                 <div class="media-body">
                                     <h3>@offer.JobTittle</h3>
@@ -92,9 +99,11 @@
                                     <img src="@offer.Photo" alt="" class="img-fluid mb-2">
                                 </div>
                             </div>
-                        }
                     </div>
                 </div>
+                <br />
+                 }
+
             </div>
         </div>
     </div>

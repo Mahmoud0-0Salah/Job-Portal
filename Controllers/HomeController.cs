@@ -22,6 +22,8 @@ namespace Jop_Portal.Controllers
 
         public IActionResult Index(string? search)
         {
+            if (User.IsInRole("Admin"))
+                return RedirectToAction("Index", "Admin");
             string id = _userManager.GetUserId(User);
             var model = _context.Offers.Where(o => (o.Active));
             if (search != null)
