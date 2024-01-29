@@ -8,7 +8,7 @@ online Job Portal website for user to publish offers and find suitable offers
 - Sign up
 - log in
 - home page to user to browse all offers
-- search by keyword to find spfetic offers
+- search by keyword to find specific offers
 - user can edit his personal data
 - personal profile page
 - user can make offer 
