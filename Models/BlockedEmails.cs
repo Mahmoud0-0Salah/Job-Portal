@@ -8,7 +8,8 @@ namespace Jop_Portal.Models
     {
         [Key]
         [ForeignKey("User")]
-        string Email;
+        public string id { get; set; }
+        public string Email { get; set; }
         public IdentityUser User { get; set; }
     }
 }

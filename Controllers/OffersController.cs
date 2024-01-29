@@ -97,6 +97,8 @@ namespace Jop_Portal.Controllers
             }
             
             await _context.SaveChangesAsync();
+            if (User==null || User.IsInRole("Admin"))
+                return RedirectToAction("Index", "Admin");
             return RedirectToAction(nameof(Index), new { id = _userManager.GetUserId(User) });
         }
 

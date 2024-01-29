@@ -19,7 +19,10 @@ namespace Jop_Portal.Controllers
             _context = context;
             _userManager = UserManager;
         }
-
+        public IActionResult BlockPage()
+        {
+            return View();
+        }
         public IActionResult Index(string? search)
         {
             if (User.IsInRole("Admin"))

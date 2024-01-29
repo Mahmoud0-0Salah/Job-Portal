@@ -112,7 +112,7 @@
                             <div class="card-body">
                                     <a href="/Accounts/Details/@offer.UserId">Visit user profile</a>
                                     <hr />
-                                    <a href="/home">Report</a>
+                                    <a asp-controller="Reports" asp-action="Create" asp-route-id="@offer.UserId">Report</a>
                                     <hr />
 
                                     <div class="media">

@@ -139,6 +139,8 @@ namespace Jop_Portal.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
+                if (_context.BlockedEmails.Select(E => E.Email).Contains(Input.Email))
+                    return RedirectToAction("BlockPage");
                 var user = CreateUser();
                 user.PhoneNumber = Input.Phone;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);

@@ -1,0 +1,55 @@
+﻿@model Jop_Portal.Models.Reports
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    body {
+        background-color: #f8f9fa; /* Light gray background color */
+    }
+
+    .form-container {
+        background-color: #ffffff; /* White background color */
+        border-radius: 10px; /* Rounded corners for a modern look */
+        padding: 20px; /* Add some padding for spacing */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    }
+
+    .form-label {
+        color: #007bff !important; /* Blue label text color */
+    }
+
+    .btn-primary {
+        background-color: #28a745; /* Green button background color */
+        border-color: #28a745; /* Green button border color */
+    }
+
+        .btn-primary:hover {
+            background-color: #218838; /* Darker green on hover */
+            border-color: #1e7e34; /* Darker border on hover */
+        }
+</style>
+
+<h1 class="text-center my-4 text-primary">Create</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 form-container">
+            <form asp-action="Create" method="post" >
+
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label form-label">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

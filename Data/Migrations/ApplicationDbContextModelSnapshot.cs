@@ -47,10 +47,14 @@ namespace Jop_Portal.Data.Migrations
 
             modelBuilder.Entity("Jop_Portal.Models.BlockedEmails", b =>
                 {
-                    b.Property<string>("Email")
+                    b.Property<string>("id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("Email");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
 
                     b.ToTable("BlockedEmails");
                 });
@@ -336,7 +340,7 @@ namespace Jop_Portal.Data.Migrations
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
                         .WithMany()
-                        .HasForeignKey("Email")
+                        .HasForeignKey("id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

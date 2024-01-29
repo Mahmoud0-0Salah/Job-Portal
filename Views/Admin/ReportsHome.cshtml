@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Account>
+<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+<style type="text/css">
+    .container {
+        margin: 30px;
+    }
+</style>
+
+
+<div class="container bootstrap snippets bootdey">
+
+    <div class="row">
+        <div class="col-md-3">
+
+            <hr>
+            <li><a asp-controller="Admin" asp-action="Index"><i class="glyphicon glyphicon-list-alt"></i> Offers</a></li>
+            <hr />
+            <li><a asp-controller="Admin" asp-action="ReportsHome"><i class="glyphicon glyphicon-plus"></i> Reports</a></li>
+            <hr>
+        </div>
+        <div class="col-md-9">
+            <br />
+            @foreach (var account in Model)
+            {
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <div class="well">
+                            <form asp-controller="Admin" asp-action="Block" asp-route-id="@account.Id"># @account.Name <button type="submit" class="btn btn-success btn-lg">Confirm</button></form>
+                        </div>
+                        <hr>
+                    </div>
+
+
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>
