@@ -54,11 +54,14 @@ namespace Jop_Portal.Controllers
                         file[0].CopyTo(fileStream); // Save in the Images folder
                     }
 
-                    offers.Photo = $"/imj/{imageName}"; // Save in the database
+                offers.Photo = $"/imj/{imageName}"; // Save in the database
                 offers.Active = false;
                 offers.CreatedAt = DateTime.Now;
                 offers.UserId = _userManager.GetUserId(User);
-                _context.Add(offers);
+                var user = _context.Account.SingleOrDefault(a => a.Id == offers.UserId);
+                offers.UserName = user.Name;
+                offers.UserPhoto = user.Photo;
+                 _context.Add(offers);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index), new { id = _userManager.GetUserId(User) });
         }

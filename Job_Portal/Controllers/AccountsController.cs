@@ -31,7 +31,7 @@ namespace Jop_Portal.Controllers
             {
                 return NotFound();
             }
-            var offers= _context.Offers.Where(o => (o.Active &&o.UserId==id));
+            var offers= _context.Offers.Where(o => (o.Active &&o.UserId==id)).OrderByDescending(o=>o.CreatedAt);
             var account =  _context.Account
                 .SingleOrDefault(m => m.Id == id);
             var user = _context.Users.SingleOrDefault(u=>u.Id == id);

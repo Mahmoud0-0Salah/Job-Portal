@@ -110,14 +110,15 @@
                         {
                         <div class="card">
                             <div class="card-body">
-                                    <a href="/Accounts/Details/@offer.UserId">Visit user profile</a>
-                                    <hr />
                                     <a asp-controller="Reports" asp-action="Create" asp-route-id="@offer.UserId">Report</a>
                                     <hr />
-
                                     <div class="media">
+                                        <a href="/Accounts/Details/@offer.UserId"><img src="@offer.UserPhoto" alt="img" width="55px" height="55px" class="rounded-circle mr-3"> </a>
                                         <div class="media-body">
-                                            <h3>@offer.JobTittle</h3>
+                                            <a href="/Accounts/Details/@offer.UserId">
+                                                <h3>@offer.UserName</h3>
+                                            </a>
+                                            <h5>@offer.JobTittle</h5>
                                             <p class="card-text text-justify">@offer.Description</p>
                                             <div class="row no-gutters mb-3">
                                                 <div class="col-6 p-1 text-center">
