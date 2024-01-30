@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7h56gXGf+EzotO8+AYTEtphvn2lKQf/wxazwT32ScBE=",
+  "Hash": "W+2ewe6XongHZbkiVu3nPkTTU1PXfrFIFYXiaoRSnCU=",
   "Source": "Jop Portal",
   "BasePath": "_content/Jop Portal",
   "Mode": "Default",
@@ -1122,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot\\imj\\0475f138-7384-4473-9dc2-e0c699965f67.jpg"
     },
     {
+      "Identity": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\08fe1395-9f3c-47d6-884c-19f3c804786d.jpg",
+      "SourceId": "Jop Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\",
+      "BasePath": "_content/Jop Portal",
+      "RelativePath": "imj/08fe1395-9f3c-47d6-884c-19f3c804786d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imj\\08fe1395-9f3c-47d6-884c-19f3c804786d.jpg"
+    },
+    {
       "Identity": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\199418f7-8f9c-4832-b57e-c7ed1c872377.jpg",
       "SourceId": "Jop Portal",
       "SourceType": "Discovered",
@@ -1205,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imj\\57d7ce74-eec7-4727-8049-447e2d234798.jpg"
+    },
+    {
+      "Identity": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\59217d2d-dfcd-4d8d-83bc-4bcdc220839d.jpg",
+      "SourceId": "Jop Portal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\",
+      "BasePath": "_content/Jop Portal",
+      "RelativePath": "imj/59217d2d-dfcd-4d8d-83bc-4bcdc220839d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imj\\59217d2d-dfcd-4d8d-83bc-4bcdc220839d.jpg"
     },
     {
       "Identity": "E:\\study\\projects\\Jop-Portal\\Job_Portal\\wwwroot\\imj\\720f75ed-1dbf-4628-b46a-c43488ee792b.jpg",

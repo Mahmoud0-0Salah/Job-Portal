@@ -16,6 +16,8 @@ namespace Jop_Portal.Models
 
         [ForeignKey("User")]
         public string UserId { get; set; }
+        public string UserPhoto { get; set; }
+        public string UserName { get; set; }
         public IdentityUser User { get; set; }
     }
 }
