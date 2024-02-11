@@ -28,3 +28,6 @@ online Job Portal website for user to publish offers and find suitable offers
 - c#
 - asp.net
 - sql server
+
+## Database Design
+![Capture](https://github.com/Mahmoud0-0Salah/Job-Portal/assets/126424722/c4e4d72f-af3e-43e7-afa2-154248b9fc4a)
