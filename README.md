@@ -1,4 +1,3 @@
-![image](https://github.com/Mahmoud0-0Salah/Job-Portal/assets/126424722/cb5256c6-e1bd-4583-b29b-c00af30ecf2c)
 # Job-Portal
 online Job Portal website for user to publish offers and find suitable offers
 
@@ -28,3 +27,6 @@ online Job Portal website for user to publish offers and find suitable offers
 - c#
 - asp.net
 - sql server
+
+## Database Design
+![Uploading 303897366-c4e4d72f-af3e-43e7-afa2-154248b9fc4a.png…]()
