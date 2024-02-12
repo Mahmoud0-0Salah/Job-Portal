@@ -29,4 +29,5 @@ online Job Portal website for user to publish offers and find suitable offers
 - sql server
 
 ## Database Design
-![Uploading 303897366-c4e4d72f-af3e-43e7-afa2-154248b9fc4a.png…]()
+![303897366-c4e4d72f-af3e-43e7-afa2-154248b9fc4a](https://github.com/Mahmoud0-0Salah/Job-Portal/assets/126424722/20d2160b-3b02-4685-a5c6-a7296c341bf5)
+
