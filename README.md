@@ -1,8 +1,8 @@
-
+![image](https://github.com/Mahmoud0-0Salah/Job-Portal/assets/126424722/cb5256c6-e1bd-4583-b29b-c00af30ecf2c)
 # Job-Portal
 online Job Portal website for user to publish offers and find suitable offers
 
-Live Demo : http://JobP.somee.com
+[Live Demo](http://JobP.somee.com)
 
 ## Features
 
